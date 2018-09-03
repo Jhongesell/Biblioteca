@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% Modificando estos datos se configurará la portada del PT %%%%%%%%%%%%%%%%%%%
+
+
+	\newcommand{\titulo}	{Gestor de Caudales Sólidos y Líquidos para Ríos}
+	\newcommand{\alumnos}	{Jhon Gesell Villanueva Portella  %\\ Nombre completo segundo alumno
+					 				}
+	\newcommand{\profguia}	{Profesor guía: Emanuel Jesús Guzman Zorrilla}
+
+	% Si no tiene profesor coguía, reemplazar la línea siguiente por la subsiguiente.
+	  	  \newcommand{\coguia} 	{Profesor Co-guía: Elisa Natalia Armijos Cárdenas} 
+		% \newcommand{\coguia} 	{  }		
+			
+	\newcommand{\mes} 	{Diciembre}  % Mes de entrega  (primera letra en mayúzcula)
+	\newcommand{\yeaR} 	{2018} % Año de entrega	
+				
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+%--------------------------------------------------------------------------------------------------
+%-----  Portada externa, esta es la que se utilizará para la tapa dura de la encuadernación. ------
+%--------------------------------------------------------------------------------------------------
+
+\begin{center}
+{\renewcommand{\baselinestretch}{1}
+\LARGE{UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS}\\\Large{FACULTAD DE CIENCIAS FÍSICAS\\ESCUELA PROFESIONAL DE INGENIERÍA MECÁNICA DE FLUIDOS}
+
+}
+\vspace{65mm}
+
+%Título del trabajo
+\Large{\textbf{\titulo.}} 
+
+\vspace{55mm}
+\Large{\textbf{\alumnos}}
+%\Large{\textbf{Nombre completo alumno}} % en caso de ser dos alumnos incorporar '\\ para separarlos (Alumno 1 \\alumno 2)
+
+\vspace{30mm}
+
+\end{center}
+\vspace{10mm}
+
+\begin{center}
+
+\end{center}
+%\vspace{5mm}
+\vfill
+
+\begin{center}
+\Large{\mes, \yeaR}
+\end{center}
+
+\thispagestyle{empty}
+%--------------------------------------------------------------------------------------------------
+%-----  Portada interna, esta página será la primera página de la tesis después de la portada. ----
+%--------------------------------------------------------------------------------------------------
+
+\newpage
+\begin{center}
+
+{\renewcommand{\baselinestretch}{1}
+\LARGE{UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS}\\\Large{FACULTAD DE CIENCIAS FÍSICAS\\ESCUELA PROFESIONAL DE INGENIERÍA MECÁNICA DE FLUIDOS}
+
+}
+
+\vspace{55mm}
+
+%\Large{\textbf{Nombre o título del trabajo de titulación.}}
+\Large{\textbf{\titulo.}}
+\vspace{20mm}
+
+
+%\Large{\textbf{Nombre completo alumno}}
+\Large{\textbf{\alumnos}}
+\vspace{20mm}
+
+\large{Proyecto de título presentado para optar al Título Profesional de \textit{Ingeniero Mecánico de Fluidos} y al Grado Académico de  \textit{Ingeniero en Mecánica de Fluidos}.}
+
+\end{center}
+\vspace{14mm}
+
+\begin{center}
+
+\large{\begin{flushright}
+% En caso de no tener profesoor Co-guía o profesor Guía externo, descomentar el siguiente espacio vertical
+%\vspace{10mm}
+\profguia
+% En caso de tener un solo profesor guía eliminar o comentar con '%' la línea o en caso de tener un profesor guía externo
+% Reemplazar por 'Profesor guía externo' sin comillas.
+
+\coguia
+
+\end{flushright}
+}
+\end{center}
+
+\vfill
+
+\begin{center}
+\Large{\mes, \yeaR}
+\end{center}
+
+\thispagestyle{empty}
+
+\newpage
+%--------------------------------------------------------
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+

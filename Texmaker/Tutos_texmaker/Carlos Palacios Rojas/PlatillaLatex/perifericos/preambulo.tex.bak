@@ -1,0 +1,74 @@
+
+\chapter*{Dedicatoria}
+
+Dedico este trabajo a las futuras generaciones para que recuerden que siempre deben creer en si mismos y en sus sueños.
+
+
+%--------------------------------------------------------
+\chapter*{Agradecimientos}
+
+Agradecer a mi madre Ana María por todo el esfuerzo, amor y ternura que entregó siempre a todos sus hijos, a mi padre Pedro Juan por haber estado ahí siempre con nosotros enseñandome cosas que un hombre necesita saber para ser un hombre de bien, a mi hermana mayor Fiorella porque con el ejemplo siempre me oriento a tomar buenas decisiones, a mi hermana Kerly porque me enseñó que un buen corazón siempre obra bien con todas las formas de vida, a mi hermano Jimmy porque es mi amigo con el que he pasado muchas horas divirtiendonos y aprendiendo juntos; a mi profesor Raúl Vargas Roncal que fue un consejero y amigo cuando más lo necesité en mis épocas de estudios universitarios, a mi profesor William Chauca con el que pasaba tardes en la universidad conversando y me orientaba como un amigo, a mi profesor Emanuel Guzman que siempre fue un mentor y amigo con el que caminabamos y reíamos en La Punta - Callao, él me enseñaba sobre el modelamiento numérico y el océano para poder crecer como profesional, a la Dra. Elisa Armijos porque ella ha sido una gran amiga que con sus consejos me orientaba para hacer posible este trabajo de investigación, siempre estuvo presente cuando la necesité y me invitaba a seguir motivado, a mis amigos de Makerlab Perú porque sábado a sábado he crecido con ellos compartiendo experiencias, a mi compañero Renzo porque vivíamos juntos la experiencia de ser tesistas en una institución tan prestigiosa, al Instituto Geofísico del Perú por permitirme ingresar a un mundo nuevo y hacer posible mi pasión, el desarrollar tecnología fué algo que siempre me despertó y gracias a ellos esto ha sido posible.
+
+
+
+
+%--------------------------------------------------------
+
+\chapter*{Resumen}
+
+La importancia del estudio de los ríos en el Perú en la decada del 2010 viene porque en los últimos años se ha visto muy importante el estudio de las precipitaciones en las zonas de alta montaña debido a los efectos del cambio climático, al ubicarnos muy cerca al Ecuador en la zona norte del país se ven muy vunerables ante las grandes crecidas de los ríos donde traen mucho material flotante que es perjudicial para las zonas bajas de la población; por ello la comprensión y la toma de datos anticipada es estratégica para que las comunidades no sean vulnerables, en épocas de máximas avenidas no se pueden hacer mediciones con los equipos por ser muy riesgosos para el personal y a la vez que los equipos se pierdan por ser arrastrados, este software hidro-sedimentario gestionará una base de datos de caudales líquidos y sólidos permitiendo a los científicos e ingenieros analizar el comportamiento del río.
+
+
+
+\vspace{1cm}
+\textbf{\textit{Palabras claves}}--- 
+Cambio climático, máximas avenidas, software hidro-sedimentario, bases de datos, caudales líquidos y sólidos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% No borrar esta sección...
+
+\newpage
+%--------------------------------------------------------
+%Aquí se genera el índice de la tesis (\tableofcontents)
+\tableofcontents
+\newpage
+%--------------------------------------------------------
+%Aquí se genera el índice de tablas (\listoftables)
+\listoftables
+
+%--------------------------------------------------------
+%Aquí se genera el índice de imágenes (\listoffigures)
+\listoffigures
+
+%--------------------------------------------------------
+%También es posible realizar índice de ecuaciones, buscar en google por "indice de ecuaciones latex"
+
+%Aquí comienza a numerarse las páginas con números arabigos.
+\pagenumbering{arabic}
